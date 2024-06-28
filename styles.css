@@ -145,12 +145,21 @@ footer p {
     width: 30px;
 }
 
-.ham-menu {
-    background-color: #ff9800;
-    width: 100%;
-    top: 0;
-    right: -450px;
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
 }
-.ham-menu.active{
-    right: 0;
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+
+  &.collapse-horizontal {
+    width: 0;
+    height: auto;
+    background-color: #ff9800;
+    @include transition($transition-collapse-width);
+  }
 }
