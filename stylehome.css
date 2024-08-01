@@ -1,0 +1,286 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+.emergency-contact {
+    display: flex;
+    align-items: center;
+}
+
+.emergency-contact span {
+    margin-right: 10px;
+}
+
+.emergency-contact .btn {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.emergency-contact .btn:hover {
+    background: #e60000;
+}
+
+#hero {
+    background-image: url(./roadvideo.gif);
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+#hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: black;
+    margin-bottom:10px;
+}
+
+#hero .btn {
+    background: #f57c00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+#hero .btn:hover {
+    background: #ff9800;
+}
+
+#hero .btn.secondary {
+    background: #fff;
+    color: #333;
+}
+
+#hero .btn.secondary:hover {
+    background: #e0e0e0;
+}
+
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+}
+
+#why-choose-us {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+}
+
+#testimonials {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.testimonial {
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    font-size: 0.9em;
+    color: #777;
+}
+
+
+#contact {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#contact button:hover {
+    background: #e60000;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

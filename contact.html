@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+<body><div class="main">
+        <div class="first">
+            <p id="f1">Call Us @<br>+123-456-789<br><br>Location :<br>Sjce Campus<br>Manasa Gangothri<br>Mysuru,560007<br><br>Email<br>Onroadproject@gmail.com<br><br><br><br><br><br><br></p>
+        </div>
+        <div class="second">
+            <p id="f2">Feed Back</p><br><br>
+            <p id="f3"> <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="contactNumber">Contact Number:</label><br>
+                <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required><br><br>
+            
+                <label for="Email">Email:</label><br>
+                <input type="mail" id="mail"><br><br>
+
+                <label for="Message">Message:</label>
+                <textarea id="issueDescription" name="issueDescription" rows="4" cols="40" required></textarea><br><br>
+                
+                <button type="submit" style="background-color: #f57c00;" onclick="alert('Feedback SUbmitted!!!');">Submit !
+                <!-- <input type="button" onclick="alert('Feedback Submitted !!!');"/>--></button><br><br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Repair</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>On Road Vehicle Assistance Breakdown</h1>
+        
+        <h2>Towing Assistance Form</h2>
+        <form id="assistanceForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required><br><br>
+            
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required><br><br><br>
+            
+            <label for="vehicleType">Vehicle Type:</label>
+            <select class="menu">
+                <option>Bike</option>
+                <option>Light Motor Vehicle (CAR)</option>
+                <option>Heavy Vehicle</option>
+            </select><br><br><br>
+
+            <label for="Vehicleno">Vehicle Number:</label>
+            <input type="text" id="no" name="number" required><br><br>
+            
+             <label for="issueDescription">Issue:</label><br>
+            <textarea id="issueDescription" name="issueDescription" rows="2" cols="40" required></textarea><br><br> -->
+        
+            <button type="submit" onclick="alert('Request Will be Serviced Soon !!!')">Submit Request</button><br><br>
+            
+
+        </form>
+        
+        <!-- <h2>Assistance Requests</h2>
+        <ul id="assistanceList"></ul> -->
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
+

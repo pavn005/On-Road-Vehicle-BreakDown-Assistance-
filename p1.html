@@ -16,7 +16,7 @@
             <input type="text" id="name" name="name" required><br><br>
             
             <label for="contactNumber">Contact Number:</label>
-            <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{5}" required><br><br>
+            <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required><br><br>
             
             <label for="location">Location:</label>
             <input type="text" id="location" name="location" required><br><br>
@@ -26,19 +26,12 @@
             
             <label for="issueDescription">Issue Description:</label><br>
             <textarea id="issueDescription" name="issueDescription" rows="4" cols="50" required></textarea><br><br>
-            
-            <label for="Tollgate">Enter Present Pincode </label><br>
-            <input type="int" id="pincode" name="code"> <br><br>
-            <button type="submit">Submit Request</button><br><br>
+        
+            <button type="submit" onclick="alert('Request will be Serviced Soon!!!')">Submit Request</button><br><br>
             
 
         </form>
-        
-        <h2>Assistance Requests</h2>
-        <ul id="assistanceList"></ul>
     </div>
-
-    <script src="script1.js"></script>
 </body>
 </html>
 
